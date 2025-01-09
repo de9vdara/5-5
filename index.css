@@ -1,0 +1,240 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: #040405;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #003004;
+    }
+
+    .navigationn {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1040px;
+        width: 100%;
+        padding: 16px 0px 16px 0px;
+        align-items: center;
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .connect {
+        color: #000;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        display: flex;
+        padding: 12px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 24px;
+        background: #00FF1A;
+        border: none;
+    }
+
+    .paraghraps {
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .mainFrameWrapper {
+        display: flex;
+        margin-top: 112px;
+        flex-direction: column;
+        gap: 112px;
+        align-items: center;
+    }
+
+    .line {
+        width: 91px;
+        background-color: #00FF1A;
+        height: 1px;
+    }
+
+    .welcome {
+        gap: 16px;
+        display: flex;
+        align-items: center;
+    }
+
+    .textFrame {
+        width: 546px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    #welcomeTo {
+        color: #FFF;
+        font-size: 16px;
+    }
+
+    .textFrame h1 {
+        color: #FFF;
+        font-size: 72px;
+    }
+
+    .textFrame p {
+        color: #7A7A7A;
+        font-size: 20px;
+    }
+
+    .firstMainFrame {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1040px;
+    }
+
+    .stakeButton {
+        display: flex;
+        padding: 12px 24px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 24px;
+        background: #00FF1A;
+        color: #000;
+        font-size: 16px;
+    }
+
+    .workingButton {
+        padding: 12px 24px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 24px;
+        border: 1px solid #00FF1A;
+        color: #00FF1A;
+        background-color: #000;
+    }
+
+    .buttonFrame {
+        display: flex;
+        gap: 16px;
+    }
+
+    .infoFrame {
+        display: flex;
+        padding-top: 24px;
+        justify-content: space-between;
+        gap: 40px;
+        border-top: 1px solid #00FF1A;
+        max-width: 815px;
+        width: 100%;
+
+    }
+
+    /* .infoFrameWrapper{
+        display: flex;
+        align-items: flex-start;
+        max-width: 1040px;
+        width: 100%;
+    } */
+
+    .infoDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 1040px;
+        width: 100%;
+        ;
+    }
+
+    .convextTvlFrame h2 {
+        color: #FFF;
+        font-size: 24px;
+    }
+
+    .convextTvlFrame p {
+        color: #7A7A7A;
+        font-size: 20px;
+    }
+
+    .convextTvlFrame {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .secondMainFrame {
+        display: flex;
+        width: 1040px;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .secondTextDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .providerDiv {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+    }
+
+    .providerDiv p {
+        color: #FFF;
+        font-size: 16px;
+    }
+
+    .secondTextDiv h2 {
+        color: #FFF;
+        font-size: 72px;
+    }
+
+    .boostPara {
+        color: #7A7A7A;
+        font-size: 20px;
+
+    }
+
+    .listDiv {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .listText h3 {
+        color: #FFF;
+        font-size: 32px;
+    }
+
+    .listText p {
+        color: #7A7A7A;
+        font-size: 16px;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
